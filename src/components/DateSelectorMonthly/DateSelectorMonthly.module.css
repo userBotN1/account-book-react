@@ -1,0 +1,38 @@
+.container {
+  max-height: 340px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: min-content;
+  padding-right: 10px;
+}
+
+.year-container {
+  margin-bottom: 2px;
+  position: relative;
+  left: 4px;
+}
+
+.months-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.month-container {
+  background-color: rgba(244, 244, 243, 255);
+  border-radius: 12px;
+  border: 1px solid red;
+  padding: 12px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.month-indicator {
+  position: absolute;
+  top: 0;
+  right: 5px;
+}
+

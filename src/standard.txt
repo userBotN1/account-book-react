@@ -1,0 +1,12 @@
+background-color: rgba(244, 244, 243, 255);
+gray font: color: rgba(139, 140, 139, 255);
+
+
+<Details
+        category="Medical"
+        amount={220.6}
+        isMonetaryValue={true}
+        isExpenditure={false}
+        time={today}
+        note="Health check"
+      />

@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  padding: 12px 0;
+  background-color: rgba(244, 244, 243, 255);
+  justify-content: space-around;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+

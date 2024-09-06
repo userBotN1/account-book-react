@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+}
+.title {
+  text-align: center;
+  /* margin-bottom: 1.6px; */
+  font-size: 1.2em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.message {
+  text-align: center;
+  /* font-size: 0.8em; */
+  color: rgba(139, 140, 139, 255);
+  margin-bottom: 10px;
+}
+

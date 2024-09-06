@@ -1,0 +1,13 @@
+.container {
+  display: grid;
+  background-color: rgba(244, 244, 243, 255);
+  border-radius: 20px;
+  font-size: 1.2em;
+  padding: 16px;
+  height: min-content;
+}
+
+.title {
+  font-weight: bold;
+}
+

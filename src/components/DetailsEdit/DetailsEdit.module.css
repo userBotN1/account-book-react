@@ -1,0 +1,11 @@
+.edit-btn {
+  background-color: rgba(196, 234, 229, 255);
+  border: none;
+  border-radius: 16px;
+  padding: 8px 20px;
+  position: fixed;
+  bottom: 10%;
+  right: 5%;
+  font-size: 1.4em;
+}
+

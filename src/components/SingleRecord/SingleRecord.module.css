@@ -1,0 +1,34 @@
+.container {
+  background-color: rgba(244, 244, 243, 255);
+  margin-bottom: 2px;
+  padding: 14px;
+  display: grid;
+  grid-template-areas:
+    "emoji category amount"
+    "emoji time amount";
+  grid-template-columns: min-content 1fr minmax(min-content, max-content);
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.emoji {
+  grid-area: emoji;
+  font-size: 2em;
+  margin-right: 8px;
+}
+
+.category {
+  grid-area: category;
+}
+
+.time {
+  grid-area: time;
+  color: rgba(139, 140, 139, 255);
+}
+
+.amount {
+  grid-area: amount;
+  word-break: break-all;
+  margin: auto 6px;
+}
+

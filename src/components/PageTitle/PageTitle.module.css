@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  text-align: center;
+  margin: 12px 0;
+}
+
+.summary {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+}
+
+.details {
+  font-family: "Open Sans", sans-serif;
+}
+

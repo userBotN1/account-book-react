@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: center;
+  max-height: 340px;
+  overflow-y: scroll;
+}
+
+.date-selector-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.date-selector-li {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  padding: 10px;
+  background-color: rgba(244, 244, 243, 255);
+  border-radius: 12px;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.year {
+  text-align: center;
+}
+
+.indicator {
+  position: absolute;
+  right: 10px;
+}
+

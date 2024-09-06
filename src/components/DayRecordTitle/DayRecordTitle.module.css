@@ -1,0 +1,27 @@
+.container {
+  margin: auto 1rem;
+  display: grid;
+  grid-template-columns: 1fr minmax(min-content, max-content) minmax(
+      min-content,
+      max-content
+    );
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+
+.time {
+  color: rgba(139, 140, 139, 255);
+  font-size: 1em;
+  white-space: nowrap;
+  padding: 6px;
+}
+
+.expAmount,
+.incAmount {
+  overflow-wrap: anywhere;
+  word-break: break-all;
+  padding: 0.1em;
+  color: rgba(69, 71, 70, 255);
+}
+

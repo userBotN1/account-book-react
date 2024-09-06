@@ -1,0 +1,21 @@
+.title {
+  margin: auto 1rem;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  list-style-type: none;
+  margin: auto 1rem;
+}
+
+.firstInList {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.lastInList {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+

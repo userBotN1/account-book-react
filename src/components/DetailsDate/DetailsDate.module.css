@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: min-content;
+  align-items: center;
+  padding: 16px;
+  font-size: 1.2em;
+  background-color: rgba(244, 244, 243, 255);
+  border-radius: 20px;
+}
+
+.title {
+  font-weight: bold;
+}
+

@@ -1,0 +1,34 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 20px;
+}
+
+.title {
+  display: flex;
+  max-width: 200px;
+  margin: 1.2em auto;
+  align-items: center;
+}
+
+.title-name {
+  font-weight: bold;
+  font-size: 1.2em;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+}
+
+.home-btn {
+  border: none;
+  background-color: rgba(244, 244, 243, 255);
+  padding: 6px 8px;
+  border-radius: 20px;
+  position: absolute;
+  left: 20px;
+}
+
